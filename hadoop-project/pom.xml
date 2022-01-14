@@ -62,7 +62,7 @@
     <java.security.egd>file:///dev/urandom</java.security.egd>
 
     <!-- avro version -->
-    <avro.version>1.7.7</avro.version>
+    <avro.version>1.11.0</avro.version>
 
     <!-- jersey version -->
     <jersey.version>1.19</jersey.version>
@@ -89,7 +89,7 @@
     <dnsjava.version>2.1.7</dnsjava.version>
 
     <guava.version>27.0-jre</guava.version>
-    <guice.version>4.0</guice.version>
+    <guice.version>5.0.0</guice.version>
     <joda-time.version>2.9.9</joda-time.version>
 
     <!-- Required for testing LDAP integration -->
@@ -1796,7 +1796,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
