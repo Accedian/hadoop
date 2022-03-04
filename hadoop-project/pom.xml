@@ -35,7 +35,7 @@
 
     <failIfNoTests>false</failIfNoTests>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
-    <jetty.version>9.3.24.v20180605</jetty.version>
+    <jetty.version>9.3.26.v20190403</jetty.version>
     <test.exclude>_</test.exclude>
     <test.exclude.pattern>_</test.exclude.pattern>
 
@@ -69,7 +69,7 @@
 
     <!-- jackson versions -->
     <jackson.version>1.9.13</jackson.version>
-    <jackson2.version>2.7.8</jackson2.version>
+    <jackson2.version>2.9.10.8</jackson2.version>
 
     <!-- SLF4J version -->
     <slf4j.version>1.7.25</slf4j.version>
@@ -1796,7 +1796,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
