@@ -1,0 +1,116 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > extend:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          extend
+    - em-table > ember-cli-less > broccoli-less-single > less > request > extend:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          extend
+  'npm:hoek:20180212':
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > hawk > hoek:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          hawk > hoek
+    - em-table > ember-cli-less > broccoli-less-single > less > request > hawk > hoek:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          hawk > hoek
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > hawk > boom > hoek:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          hawk > boom > hoek
+    - em-table > ember-cli-less > broccoli-less-single > less > request > hawk > boom > hoek:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          hawk > boom > hoek
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > hawk > sntp > hoek:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          hawk > sntp > hoek
+    - em-table > ember-cli-less > broccoli-less-single > less > request > hawk > sntp > hoek:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          hawk > sntp > hoek
+  SNYK-JS-LODASH-567746:
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > form-data > async > lodash:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          form-data > async > lodash
+    - em-table > ember-cli-less > broccoli-less-single > less > request > form-data > async > lodash:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          form-data > async > lodash
+  'npm:mime:20170907':
+    - em-helpers > ember-cli-less > broccoli-less-single > less > mime:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:mime:20170907'
+        path: em-helpers > ember-cli-less > broccoli-less-single > less > mime
+    - em-table > ember-cli-less > broccoli-less-single > less > mime:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:mime:20170907'
+        path: em-table > ember-cli-less > broccoli-less-single > less > mime
+  'npm:stringstream:20180511':
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > stringstream:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          stringstream
+    - em-table > ember-cli-less > broccoli-less-single > less > request > stringstream:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          stringstream
+  'npm:tough-cookie:20170905':
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > tough-cookie:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          tough-cookie
+    - em-table > ember-cli-less > broccoli-less-single > less > request > tough-cookie:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          tough-cookie
+  'npm:tunnel-agent:20170305':
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > tunnel-agent:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          tunnel-agent
+    - em-table > ember-cli-less > broccoli-less-single > less > request > tunnel-agent:
+        patched: '2023-09-01T20:38:13.821Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          tunnel-agent
