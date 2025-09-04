@@ -72,7 +72,7 @@
     <jackson2.version>2.7.8</jackson2.version>
 
     <!-- SLF4J version -->
-    <slf4j.version>1.7.25</slf4j.version>
+    <slf4j.version>1.7.34</slf4j.version>
 
     <!-- com.google.re2j version -->
     <re2j.version>1.1</re2j.version>
@@ -1796,7 +1796,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/&gt;
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
